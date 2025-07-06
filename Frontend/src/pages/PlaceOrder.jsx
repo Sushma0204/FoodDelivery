@@ -1,7 +1,6 @@
 import React, { useContext, useState } from 'react'
 import { StoreContext } from '../context/StoreContext'
 import axios from 'axios'
-import orderModel from '../../../Backend/models/orderModel.js'
 import { useNavigate } from 'react-router'
 
 
