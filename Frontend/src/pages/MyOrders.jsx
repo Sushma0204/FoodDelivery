@@ -56,7 +56,7 @@ const MyOrders = () => {
                   </div>
                 </div>
                 
-                <button onClick={getOrders()} className='px-6 py-2 text-sm bg-amber-200 text-gray-800 rounded-full hover:bg-amber-700 transition-colors duration-200 font-medium flex-shrink-0'>
+                <button onClick={getOrders} className='px-6 py-2 text-sm bg-amber-200 text-gray-800 rounded-full hover:bg-amber-700 transition-colors duration-200 font-medium flex-shrink-0'>
                   Track Order
                 </button>
               </div>
