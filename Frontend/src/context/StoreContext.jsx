@@ -7,7 +7,7 @@ const StoreContextProvider = (props) => {
   const [cartItem, setCartItem] = useState({})
   const [token, setToken] = useState("")
   const [foodItems, setFoodItems] = useState([])
-  const url = 'http://localhost:4000'
+  const url = 'https://fooddelivery-backend-vepa.onrender.com'
 
   const addToCart = async (id) => {
     id = id.toString()
