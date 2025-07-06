@@ -1,5 +1,5 @@
 import React from 'react'
-import {menu} from '../assets/menu-bg.jpg'
+import menu from '../assets/menu-bg.jpg'
 
 const Menu = () => {
   return (
