@@ -17,9 +17,11 @@ const App = () => {
 
   return (
     <>
-      {showLogin ? <Login setShowLogin={setShowLogin} /> : <></>}
-      <div className='font-family-poppins min-h-screen flex flex-col'>
-        <Navbar setShowLogin={setShowLogin} />
+      {showLogin && <Login setShowLogin={setShowLogin} />}
+
+      <Navbar setShowLogin={setShowLogin} />
+
+      <div className='font-family-poppins w-full min-h-screen flex flex-col'>
         <div className='flex-grow'>
           <Routes>
             <Route path='/' element={<Home />} />
