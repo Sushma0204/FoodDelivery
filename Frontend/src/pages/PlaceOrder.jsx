@@ -1,5 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { StoreContext } from '../context/StoreContext'
+import axios from 'axios'
 import { useNavigate } from 'react-router'
 
 const PlaceOrder = () => {

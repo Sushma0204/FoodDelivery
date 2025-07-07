@@ -6,7 +6,7 @@ import axios from 'axios'
 
 const List = () => {
   const [list, setList] = useState([])
-  const url = 'http://localhost:4000'
+  const url = 'https://fooddelivery-backend-vepa.onrender.com'
 
   const categoryColors = {
     Beverages: 'bg-blue-100 text-blue-800 border-blue-200',

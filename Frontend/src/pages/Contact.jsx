@@ -10,10 +10,10 @@ const Contact = () => {
         <p className="text-sm sm:text-base md:text-lg text-gray-700 mb-8 leading-relaxed">
           We'd love to hear from you! Reach out for support, feedback, or just to say hello.
         </p>
-        <div className="rounded-xl shadow-md p-6 text-left space-y-4 border border-gray-200">
-          <p className="text-gray-800"><strong>Email:</strong> contact@quickbite.com</p>
-          <p className="text-gray-800"><strong>Phone:</strong> 1-523-890-001</p>
-          <p className="text-gray-800"><strong>Address:</strong> 123 Foodie Street, Flavor Town, India</p>
+        <div className="rounded-xl shadow-md p-4 sm:p-6 text-left space-y-4 border border-gray-200">
+          <p className="text-gray-800 text-sm sm:text-base"><strong>Email:</strong> contact@quickbite.com</p>
+          <p className="text-gray-800 text-sm sm:text-base"><strong>Phone:</strong> 1-523-890-001</p>
+          <p className="text-gray-800 text-sm sm:text-base"><strong>Address:</strong> 123 Foodie Street, Flavor Town, India</p>
         </div>
       </div>
     </section>
